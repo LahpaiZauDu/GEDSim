@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SelectSubject</class>
+ <widget class="QWizardPage" name="SelectSubject">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>657</width>
+    <height>476</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>657</width>
+    <height>476</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>657</width>
+    <height>476</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>WizardPage</string>
+  </property>
+  <widget class="QPushButton" name="MathPushButton">
+   <property name="geometry">
+    <rect>
+     <x>93</x>
+     <y>190</y>
+     <width>90</width>
+     <height>74</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Math</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="EngPushButton">
+   <property name="geometry">
+    <rect>
+     <x>229</x>
+     <y>190</y>
+     <width>90</width>
+     <height>74</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Eng</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SocPushButton">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>190</y>
+     <width>90</width>
+     <height>74</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Soc</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SciPushButton">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>190</y>
+     <width>90</width>
+     <height>74</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sci</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="SelectSubjectlabel">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>100</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>27</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Select Subjects</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>MathPushButton</tabstop>
+  <tabstop>EngPushButton</tabstop>
+  <tabstop>SocPushButton</tabstop>
+  <tabstop>SciPushButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
